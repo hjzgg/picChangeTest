@@ -39,7 +39,7 @@
 
         $.each(setting, function(index, value){
         	var picContent = $('<li>\
-					<a href="http://www.cnblogs.com/hujunzheng/" target="_blank"><img src="' + value.path + '" title="myLove"' + (index+1) +  '/></a>\
+					<a href="http://www.cnblogs.com/hujunzheng/" target="_blank"><img width="400" height="350" src="' + value.path + '" title="myLove"' + (index+1) +  '/></a>\
 					<div class="sb-description">\
 						<h3>' + value.desc + '</h3>\
 					</div>\
