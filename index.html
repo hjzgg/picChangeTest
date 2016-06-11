@@ -11,13 +11,54 @@
 	</head>
 	<body>
 		<div class="container">
-			<div class="wrapper">
+			<div class="wrapper" id="picWrapper">
 				<ul id="sb-slider" class="sb-slider"></ul>
 				<div id="shadow" class="shadow"></div>
 				<div id="nav-arrows" class="nav-arrows"><a href="#">Next</a><a href="#">Previous</a></div>
 			</div><!-- /wrapper -->
 		</div>
 		<!-- id=sb-slider的<ul></ul>中增加图片代码 -->
+		<script type="text/javascript">
+			$('#picWrapper').css('width', '500px');//设置整个图片层的宽度
+			var picPaths = [
+				{
+	        		desc: 'ChangeXue...1',
+	        		path: 'picturesChang/1.png'
+        		},
+        		{
+	        		desc: 'ChangeXue...2',
+	        		path: 'picturesChang/2.png'
+        		},
+        		{
+	        		desc: 'ChangeXue...3',
+	        		path: 'picturesChang/3.png'
+        		},
+        		{
+	        		desc: 'ChangeXue...4',
+	        		path: 'picturesChang/4.png'
+        		},
+        		{
+	        		desc: 'ChangeXue...5',
+	        		path: 'picturesChang/5.jpg'
+        		},
+        		{
+	        		desc: 'ChangeXue...6',
+	        		path: 'picturesChang/6.jpg'
+        		},
+        		{
+	        		desc: 'ChangeXue...7',
+	        		path: 'picturesChang/7.jpg'
+        		},
+        		{
+	        		desc: 'ChangeXue...8',
+	        		path: 'picturesChang/8.jpg'
+        		},
+        		{
+	        		desc: 'ChangeXue...9',
+	        		path: 'picturesChang/9.jpg'
+        		},
+			];//图片地址			
+		</script>
 		<script type="text/javascript" src="init.js"></script>	
 
 		<script type="text/javascript" src="js/jquery.slicebox.js"></script>
